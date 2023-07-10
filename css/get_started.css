@@ -1,0 +1,49 @@
+.get_started{
+    display: flex;
+    padding: 16px 100px;
+    
+
+}
+
+.get_started_sub{
+    box-sizing: border-box;
+    padding: 100px 5% 10px 10%;
+}
+
+.get_started_image{
+    display: block;
+    -o-object-fit: contain;
+    object-fit: contain;
+    
+    
+    width: 280px;
+    aspect-ratio: auto 280 / 360;
+    height: 360px;
+}
+
+.get_started button{
+    background-color: #ee3425;
+    color: white;
+    font-family: "PT Sans" sans-serif;
+}
+
+.get_started p{
+    font-size: 16px;
+}
+
+.get_started_image {
+    -webkit-animation: mover 4s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.get_started_image {
+    -webkit-animation: mover 4s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
