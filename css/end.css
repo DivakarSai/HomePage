@@ -1,0 +1,20 @@
+.end{
+    background-color: #fbdc00;
+    display: flex;
+    
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.end_sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 5% 20px 5% ;
+}
+.end a{
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    padding: 10px 10px 10px 10px;
+
+}

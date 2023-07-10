@@ -1,0 +1,53 @@
+.stats{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8%;
+    
+   
+}
+
+.stats body{
+    display: flex;
+    
+    align-self: center;
+    align-content: space-between;
+    justify-content: space-between;
+    
+    font-family: "PT Sans", sans-serif;
+
+}
+.stats_comp{
+    padding: 2% 5% 2% 5%;
+    text-align: center;
+}
+.stats h2{
+    color: red;
+}
+.stats h4{
+    color: black;
+}
+.two_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.two_buttons button{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.first_button{
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
+.second_button{
+    border: 1px solid rgb(194, 194, 194);
+    background-color: rgb(194, 194, 194);
+}
